@@ -63,7 +63,7 @@ write.table(cleanedData, "result_data.txt")
 
 # Calculate lenghts
 subjectLen <- length(table(joinSubject)) 
-activityLen <- dim(activity)[1] # 6
+activityLen <- dim(activity)[1] 
 columnLen <- dim(cleanedData)[2]
 
 # I want a data frame
